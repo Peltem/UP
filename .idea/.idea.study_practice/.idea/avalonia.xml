@@ -4,7 +4,16 @@
     <option name="projectPerEditor">
       <map>
         <entry key="App.axaml" value="study_practice.csproj" />
+        <entry key="AttendanceWindow.axaml" value="study_practice.csproj" />
+        <entry key="BuyCourse_Window.axaml" value="study_practice.csproj" />
+        <entry key="LoginWindow.axaml" value="study_practice.csproj" />
         <entry key="MainWindow.axaml" value="study_practice.csproj" />
+        <entry key="PaymentWindow.axaml" value="study_practice.csproj" />
+        <entry key="ScheduleWindow.axaml" value="study_practice.csproj" />
+        <entry key="Schedule_ClientWindow.axaml" value="study_practice.csproj" />
+        <entry key="SelectionWindow.axaml" value="study_practice.csproj" />
+        <entry key="Stats_ChooseWindow.axaml" value="study_practice.csproj" />
+        <entry key="TeacherWindow.axaml" value="study_practice.csproj" />
       </map>
     </option>
   </component>

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Avalonia;
 using Avalonia.Controls;
+using Avalonia.Interactivity;
 using MySql.Data.MySqlClient;
 namespace study_practice;
 public partial class MainWindow : Window
@@ -35,12 +36,31 @@ public partial class MainWindow : Window
                 Number_Of_Seats = reader.GetInt32("Number_Of_Seats"),
                 Number_Of_Busy = reader.GetInt32("Number_Of_Busy"),
                 Price = reader.GetDecimal("Price"),
-                Course_Schedule = reader.GetInt32("Course_Schedule"),
                 Teacher = reader.GetInt32("Teacher"),
             };
             _courses.Add(curCourse);
         }
         _connection.Close();
         CourseDataGrid.ItemsSource = _courses;
+    }
+    
+
+    private void Exit_OnClick(object? sender, RoutedEventArgs e)
+    {
+        this.Close();
+    }
+
+    private void BuyCourse_Window_OnClick(object? sender, RoutedEventArgs e)
+    {
+        BuyCourse_Window buyCourseWindow = new BuyCourse_Window();
+        buyCourseWindow.Show();
+        this.Close();
+    }
+
+    private void Schledule_Window_OnClick(object? sender, RoutedEventArgs e)
+    {
+        Schedule_ClientWindow scheduleClientWindow = new Schedule_ClientWindow();
+        scheduleClientWindow.Show();
+        this.Close();
     }
 }

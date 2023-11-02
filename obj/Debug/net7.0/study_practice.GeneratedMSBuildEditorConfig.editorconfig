@@ -13,13 +13,37 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = study_practice
-build_property.ProjectDir = /home/KHPK.RU/student/RiderProjects/study_practice/
+build_property.ProjectDir = C:\Users\Игорь\Desktop\study_practice\
 
-[/home/KHPK.RU/student/RiderProjects/study_practice/App.axaml]
+[C:/Users/Игорь/Desktop/study_practice/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/KHPK.RU/student/RiderProjects/study_practice/LoginWindow.axaml]
+[C:/Users/Игорь/Desktop/study_practice/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/KHPK.RU/student/RiderProjects/study_practice/MainWindow.axaml]
+[C:/Users/Игорь/Desktop/study_practice/Views/AttendanceWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Игорь/Desktop/study_practice/Views/BuyCourse_Window.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Игорь/Desktop/study_practice/Views/LoginWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Игорь/Desktop/study_practice/Views/PaymentWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Игорь/Desktop/study_practice/Views/ScheduleWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Игорь/Desktop/study_practice/Views/Schedule_ClientWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Игорь/Desktop/study_practice/Views/SelectionWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Игорь/Desktop/study_practice/Views/StatsSelectWindow.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/Игорь/Desktop/study_practice/Views/TeacherWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

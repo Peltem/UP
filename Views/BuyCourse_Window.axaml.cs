@@ -4,9 +4,9 @@ using Avalonia.Markup.Xaml;
 
 namespace study_practice;
 
-public partial class LoginWindow : Window
+public partial class BuyCourse_Window : Window
 {
-    public LoginWindow()
+    public BuyCourse_Window()
     {
         InitializeComponent();
     }
