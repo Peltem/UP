@@ -18,9 +18,11 @@
                            x:CompileBindings="False">
                     
                         <DataGrid.Columns>
-                                <DataGridTextColumn Header="Id" Binding="{Binding Teacher_ID}"></DataGridTextColumn>
-                                <DataGridTextColumn Header="Фамилия" Binding="{Binding Teacher_Surname}"></DataGridTextColumn>
-                                <DataGridTextColumn Header="Имя" Binding="{Binding Teacher_Name}"></DataGridTextColumn>
+                                <DataGridTextColumn Header="Id" Binding="{Binding Id}"></DataGridTextColumn>
+                                <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}"></DataGridTextColumn>
+                                <DataGridTextColumn Header="Имя" Binding="{Binding Name}"></DataGridTextColumn>
+                                <DataGridTextColumn Header="Язык" Binding="{Binding Language}"></DataGridTextColumn>
+                                
                         </DataGrid.Columns>
                 </DataGrid>
                 <Grid Grid.Row="0"  Width="200" HorizontalAlignment="Left" RowDefinitions="*, * ,*, *" >

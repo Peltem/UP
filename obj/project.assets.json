@@ -5357,24 +5357,26 @@
     ]
   },
   "packageFolders": {
-    "/home/KHPK.RU/student/.nuget/packages/": {}
+    "C:\\Users\\Игорь\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/KHPK.RU/student/RiderProjects/study_practice/study_practice.csproj",
+      "projectUniqueName": "C:\\Users\\Игорь\\Desktop\\study_practice\\study_practice.csproj",
       "projectName": "study_practice",
-      "projectPath": "/home/KHPK.RU/student/RiderProjects/study_practice/study_practice.csproj",
-      "packagesPath": "/home/KHPK.RU/student/.nuget/packages/",
-      "outputPath": "/home/KHPK.RU/student/RiderProjects/study_practice/obj/",
+      "projectPath": "C:\\Users\\Игорь\\Desktop\\study_practice\\study_practice.csproj",
+      "packagesPath": "C:\\Users\\Игорь\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Игорь\\Desktop\\study_practice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/KHPK.RU/student/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Игорь\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5434,7 +5436,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -22,7 +22,7 @@ public partial class TeacherWindow : Window
     public void ShowTable()
     {
         string sql =
-                "select Teacher_ID, Teacher_Name, Teacher_Surname from pro1_11.Teacher"
+                "select Id, Name, Surname, Language from pro1_8.Teacher"
             ;
         _teachers = new List<Teacher>();
         _connection = new MySqlConnection(_con);
@@ -33,9 +33,10 @@ public partial class TeacherWindow : Window
         {
             var curTeacher = new Teacher()
             {
-                Teacher_ID = reader.GetInt32("Teacher_ID"),
-                Teacher_Name = reader.GetString("Teacher_Name"),
-                Teacher_Surname = reader.GetString("Teacher_Surname"),
+                Id = reader.GetInt32("Id"),
+                Name = reader.GetString("Name"),
+                Surname = reader.GetString("Surname"),
+                Language = reader.GetInt32("Language")
             };
             _teachers.Add(curTeacher);
         }
